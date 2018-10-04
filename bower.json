@@ -15,6 +15,6 @@
     "tests"
   ],
   "dependencies": {
-    "freelancer": "5.0.0"
+    "startbootstrap-freelancer": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git#^5.0.0"
   }
 }
