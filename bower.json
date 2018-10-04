@@ -1,0 +1,17 @@
+{
+  "name": "avigael_vitrine",
+  "homepage": "https://github.com/imimoun/avigael-vitrine",
+  "authors": [
+    "imimoun <ilan.mimoun.work@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
