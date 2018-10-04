@@ -11,10 +11,13 @@ https://docs.djangoproject.com/en/1.11/ref/settings/
 """
 
 import os
+import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+# Add apps directory in the system apps
+sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -27,8 +30,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
+PROJECT_APPS = [
+    'blog',
+]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -54,7 +59,9 @@ ROOT_URLCONF = 'avigael_vitrine.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR + 'avigael_vitrine/template',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
