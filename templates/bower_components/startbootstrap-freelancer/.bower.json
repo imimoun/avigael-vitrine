@@ -1,0 +1,15 @@
+{
+  "name": "startbootstrap-freelancer",
+  "homepage": "https://github.com/BlackrockDigital/startbootstrap-freelancer",
+  "version": "5.0.0",
+  "_release": "5.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v5.0.0",
+    "commit": "898512c862fa90f2fafe7ed0c7ad15da6f795fe3"
+  },
+  "_source": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git",
+  "_target": "^5.0.0",
+  "_originalSource": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git",
+  "_direct": true
+}
