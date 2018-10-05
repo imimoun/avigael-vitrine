@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 Django = "==2.0.0"
+gunicorn = "==19.7.1"
+pytz = "==2018.4"
 
 [dev-packages]
 
